@@ -8,8 +8,11 @@ Bikeshare Data Analysis Project
 ### Description
 This project analyzes bikeshare data from various cities to uncover usage trends and patterns. It helps identify popular travel times, trip durations, and user demographics.
 
-### Files used
-Include the files used
+### Usage Instructions
+To run the analysis, execute:
+
+```bash
+python bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted. that is the content of readme file
