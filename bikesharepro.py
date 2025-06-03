@@ -171,6 +171,15 @@ def user_stats(df):
     print('-'*40)
 
 def main():
+    """
+    Runs the interactive bikeshare data exploration program.
+    
+    This function:
+    - Prompts the user for city, month, and day filters.
+    - Loads the corresponding data.
+    - Displays statistics and raw data upon request.
+    - Repeats the process until the user chooses to exit.
+    """
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
