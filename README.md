@@ -16,5 +16,7 @@ This project analyzes bikeshare data from various cities to uncover usage trends
 - washington.csv — Data file for Washington, D.C.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project was developed as part of the Udacity Data Analyst Nanodegree program.  
+Special thanks to Udacity for the initial project framework and guidance.  
+Link: [Udacity Bikeshare Project](https://www.udacity.com/course/data-analyst-nanodegree--nd002)
 
