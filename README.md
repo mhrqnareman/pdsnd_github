@@ -6,7 +6,7 @@ June 3rd, 2025
 Bikeshare Data Analysis Project
 
 ### Description
-Describe what your project is about and what it does
+This project analyzes bikeshare data from various cities to uncover usage trends and patterns. It helps identify popular travel times, trip durations, and user demographics.
 
 ### Files used
 Include the files used
