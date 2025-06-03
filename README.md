@@ -14,7 +14,9 @@ To run the analysis, execute:
 ```bash
 python bikeshare.py
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted. that is the content of readme file
-
+### Files used
+- bikeshare.py — Main Python script for the analysis
+- chicago.csv — Data file for Chicago
+- new_york_city.csv — Data file for New York City
+- washington.csv — Data file for Washington, D.C.
 
