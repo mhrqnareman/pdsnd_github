@@ -9,6 +9,7 @@ Bikeshare Data Analysis Project
 ### Description
 This project analyzes bikeshare data from various cities to uncover usage trends and patterns. It helps identify popular travel times, trip durations, and user demographics.
 
+
 ### Files used
 - bikeshare.py — Main Python script for the analysis
 - chicago.csv — Data file for Chicago
