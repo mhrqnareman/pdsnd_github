@@ -14,30 +14,30 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
 
     # Get user input for city
+    def get_valid_input(prompt, valid_options):
+    """
+    Repeatedly prompt user until they enter a valid option.
+    """
     while True:
-        city = input('Would you like to see data for Chicago, New York City, or Washington?\n').lower()
-        if city in CITY_DATA:
-            break
+        response = input(prompt).lower()
+        if response in valid_options:
+            return response
         else:
-            print('Invalid input. Please choose from Chicago, New York City, or Washington.')
+            print(f"Invalid input. Please enter one of the following: {', '.join(valid_options)}")
 
-    # Get user input for month
+def get_filters():
+    """
+    Asks user to specify a city, month, and day to analyze.
+    """
+    print('Hello! Let\'s explore some US bikeshare data!')
+
+    city = get_valid_input('Would you like to see data for Chicago, New York City, or Washington?\n', CITY_DATA.keys())
+
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
-    while True:
-        month = input('Which month? January, February, March, April, May, June, or "all"?\n').lower()
-        if month in months:
-            break
-        else:
-            print('Invalid input. Please enter a correct month or "all".')
+    month = get_valid_input('Which month? January, February, March, April, May, June, or "all"?\n', months)
 
-    # Get user input for day of week
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
-    while True:
-        day = input('Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, or "all"?\n').lower()
-        if day in days:
-            break
-        else:
-            print('Invalid input. Please enter a correct day or "all".')
+    day = get_valid_input('Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, or "all"?\n', days)
 
     print('-'*40)
     return city, month, day
